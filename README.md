@@ -9,11 +9,11 @@ Below is a Blinky example which can be run on the [Corstone-300 FVP](https://dev
 ```bash
 $ git clone https://github.com/jasonrandrews/Blinky.git
 $ cd Blinky
-$ ./run.sh
+$ cbuild.sh Blinky.Target_1.cprj
 ```
 ### Run 
 ```console
-$ cbuild.sh Blinky.Target_1.cprj
+$ ./run.sh
 ```
 
 ### The program output should be:
